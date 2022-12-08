@@ -34,9 +34,6 @@ chart.data = [{
   "color": am4core.color("#E2A125")
 }
 ];
-
-
-
 var series = chart.series.push(new am4charts.PictorialStackedSeries());
 series.dataFields.value = "value";
 series.dataFields.category = "name";
